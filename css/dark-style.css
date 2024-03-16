@@ -1,0 +1,147 @@
+html {
+    background-color: #111;
+    color: white;
+}
+
+/* Body, fonts, and links */
+body {
+    /* Background */
+    background-color: #111;
+    color: white;
+    
+    /* Fonts */
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+a:link {
+    color: #808080;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #808080;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #808080;
+    text-decoration: none;
+}
+
+/* Lists and Numbered Lists */
+li {
+    font-size: 12pt;
+}
+
+/* Headings */
+h1 {
+    color: white;
+    font-size: 28pt;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 22pt;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: white;
+    font-size: 18pt;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    color: white;
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+	height: 30px;
+
+	color: white;
+	font-size: 12pt;
+	text-align: left;
+}
+
+
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+
+	box-shadow: 0 0 30px black;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 25px;
+	transition: all 0.3s ease;
+}
+
+#nav ul li a:hover {
+	background-color: #111;
+	color: white;
+	border-radius: 10px;
+}
+
+/* Hero - The most important part */
+#hero {
+	width: 800px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+
+    transform: translate(-50%, -50%);
+
+    padding-top: 300px;
+    z-index: -1;
+}
+
+#hero h1 {
+	font-size: 4em;
+	margin-bottom: 0;
+    color: white;
+}
+
+#hero p {
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/* Blog Post and Content Sections */
+#leftalign {
+    text-align: left;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
